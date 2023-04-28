@@ -1,0 +1,88 @@
+body {
+  background-color: #001425;
+}
+
+a {
+  color: #70d2ff;
+  text-decoration: none;
+  align-content: right;
+}
+
+p {
+  font-size: 26px;
+}
+
+/* header style begins here */
+header {
+  padding: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #001425;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  text-indent: 10px;
+  }
+
+/* navigation links formating */
+header nav {
+  margin-right: 20px;
+  margin-top: 20px;
+  float: right;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  }
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* main image content */
+.main_image {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-image: url("images/main_image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+   /* main/box sections */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+main{
+  width: 75%;
+  margin: 45px;
+}
+
+.box {
+  margin-bottom: 30px;
+  padding: 10px;
+  height: 200px;
+  border:groove;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  }
+
+  img {
+    overflow: clip;
+    border: #000000;
+    border-radius: 10px;
+   }
+
+/* footer section style begins here */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
